@@ -26,12 +26,13 @@ end
 
 def remove_element_from_start_of_array(array)
   array = ["I", "am", "learning", "new"]
-  element = "arrays!"
-  array.shift(element)
+  array[0]
 end
 
 def retrieve_element_from_index(array, index_number)
-
+  array = ["I", "am", "learning", "new"]
+  element = "arrays!"
+  array.pop(element)
 end
 
 def retrieve_first_element_from_array(array)
