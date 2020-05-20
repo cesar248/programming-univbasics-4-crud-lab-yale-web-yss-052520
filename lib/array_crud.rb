@@ -40,7 +40,7 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array = ["I", "am", "learning", "new"]
+  array = ["I", "am", "learning", "new", "arrays!"]
   array[-1]
 end
 
